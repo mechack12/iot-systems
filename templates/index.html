@@ -150,10 +150,9 @@
             type: 'line',
             data: {
                 labels: {{ timestamps|tojson }},
-                datasets: [
-                    {
+                datasets:[       {
                         label: 'Temperature (°C)',
-                        data: {{ temperature|tojson }},
+                        data: {{temperature|tojson }},
                         borderColor: 'red',
                         fill: false
                     },
